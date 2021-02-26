@@ -1,0 +1,128 @@
+@import '/static/iconfont/iconfont.wxss';
+
+.indexContainer {
+  background: #eee;
+}
+
+.banners {
+  width: 100%;
+  height: 300rpx;
+}
+
+.banners image {
+  width: 100%;
+  height: 100%;
+}
+
+.navContainer {
+  display: flex;
+  background: #fff;
+  padding-bottom: 9px;
+}
+
+.navItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  font-size: 26rpx;
+}
+
+.navItem .iconfont {
+  margin: 9px 0;
+  width: 100rpx;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: rgb(240, 19, 19);
+  border-radius: 50%;
+  color: #fff;
+  font-size: 50rpx;
+}
+
+.recommendContainer {
+  margin-top: 3rpx;
+  background: #fff;
+  padding: 0 30rpx;
+  border-bottom-left-radius: 18rpx;
+  border-bottom-right-radius: 18rpx;
+}
+
+.recommendContent {
+  margin-top: 9px;
+  display: flex;
+  height: 150px;
+}
+
+.scroll-view-item {
+  width: 200rpx;
+  margin-right: 20rpx;
+}
+
+.scroll-view-item image {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 10rpx;
+}
+
+.scroll-view-item text {
+  font-size: 24rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  /*设置对其模式*/
+  -webkit-line-clamp: 2;
+  /*设置多行的行数*/
+}
+
+.topList {
+  margin-top: 9px;
+  background: #fff;
+  padding: 0 30rpx;
+  border-radius: 18rpx;
+}
+
+.topListSwiper {
+  margin-top: 15px;
+  height: 450rpx;
+}
+
+.swiper-item {
+  width: 93%;
+  border-radius: 20rpx;
+  box-shadow: 0 0 10rpx rgba(0, 0, 0, 0.1);
+  padding: 10rpx;
+  background: #fbfbfb;
+  transform: translateX(6rpx) translateY(6rpx);
+}
+
+.swiper-item .title {
+  text-align: center;
+  margin: 5px 0;
+}
+
+.music-item {
+  display: flex;
+  align-items: center;
+  font-size: 28rpx;
+  margin-bottom: 5px;
+}
+
+.music-item .count {
+  margin: 0 36rpx;
+}
+
+.music-item image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 6rpx;
+}
+
+.music-item .music-name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
